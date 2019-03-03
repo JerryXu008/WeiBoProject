@@ -28,7 +28,7 @@ class WBMainViewController: UITabBarController {
         setupTimer();
         
         // 设置新特性视图
-        setupNewfeatureViews()
+         setupNewfeatureViews()
         
         // 注册通知
         NotificationCenter.default.addObserver(

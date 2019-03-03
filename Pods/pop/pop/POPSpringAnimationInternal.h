@@ -14,7 +14,7 @@
 
 struct _POPSpringAnimationState : _POPPropertyAnimationState
 {
-  SpringSolver4d *solver;
+   SpringSolver4d *solver;
   CGFloat springSpeed;
   CGFloat springBounciness; // normalized springiness
   CGFloat dynamicsTension;  // tension
